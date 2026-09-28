@@ -1,0 +1,44 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/akkzacam/Documents/degree/year 2/special_semester/INTEGRATED_STM32_DATA_VISUALISATION_PROJECT/project_1/stm32_adc_to_pwm/include",
+                "/Users/akkzacam/Documents/degree/year 2/special_semester/INTEGRATED_STM32_DATA_VISUALISATION_PROJECT/project_1/stm32_adc_to_pwm/src",
+                "/Users/akkzacam/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                "/Users/akkzacam/.platformio/packages/framework-cmsis-stm32f4/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/akkzacam/Documents/degree/year 2/special_semester/INTEGRATED_STM32_DATA_VISUALISATION_PROJECT/project_1/stm32_adc_to_pwm/include",
+                    "/Users/akkzacam/Documents/degree/year 2/special_semester/INTEGRATED_STM32_DATA_VISUALISATION_PROJECT/project_1/stm32_adc_to_pwm/src",
+                    "/Users/akkzacam/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                    "/Users/akkzacam/.platformio/packages/framework-cmsis-stm32f4/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60200",
+                "STM32F4",
+                "STM32F446xx",
+                "F_CPU=180000000L",
+                ""
+            ],
+            "cppStandard": "gnu++17",
+            "compilerPath": "/Users/akkzacam/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
